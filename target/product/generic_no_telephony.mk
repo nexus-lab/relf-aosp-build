@@ -74,3 +74,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core.mk)
 PRODUCT_BRAND := generic
 PRODUCT_DEVICE := generic
 PRODUCT_NAME := generic_no_telephony
+
+# ReLF
+include vendor/relf/config.mk
